@@ -22,25 +22,23 @@
     <!-- endbuild -->
   </head>
   <body>
-
-    <div class="hero-unit">
-      <h1>'Allo, 'Allo!</h1>
-      <p>You now have</p>
-      <ul>
-        <li>HTML5 Boilerplate</li>
-        <li>Normalize CSS</li>
-        <li>Sass</li>
-        <li>Modernizr</li>
-        <li>Bourbon & Neat</li>
-        <li>UnderscoreJS</li>
-      </ul>
-      <p>Don't forget to update your readme file!!</p>
-    </div>
-
+       <section id="todoapp">
+            <header id="header">
+                <h1>todos</h1>
+                <input id="new-todo" placeholder="What needs to be done?" autofocus>
+            </header>
+            <section id="main">
+                <input id="toggle-all" type="checkbox">
+                <label for="toggle-all">Mark all as complete</label>
+                <ul id="todo-list"></ul>
+            </section>
+            <footer id="footer"></footer>
+        </section>
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
     <script src="../bower_components/jquery/dist/jquery.js"></script>
     <script src="../bower_components/underscore/underscore.js"></script>
+    <script src="../bower_components/backbone/backbone.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 

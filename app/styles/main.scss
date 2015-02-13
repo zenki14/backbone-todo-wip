@@ -4,23 +4,41 @@
 
 // Custom Styles
 body {
-  background: #fafafa;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #333;
-}
+  font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.4em;
+  background: #eeeeee;
+  color: #333333;
+  width: 520px;
+  margin: 0 auto;
 
-.hero-unit {
-  margin: 50px auto 0 auto;
-  width: 600px;
-  font-size: 18px;
-  font-weight: 200;
-  line-height: 30px;
-  background-color: #eee;
-  border-radius: 6px;
-  padding: 60px;
-  h1 {
-    font-size: 60px;
-    line-height: 1;
-    letter-spacing: -1px;
+  #todoapp {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 40px;
   }
+
+  #header {
+    display: block;
+  }
+
+  #header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0 0 10px 0;
+  }
+
+  #header input {
+    width: 466px;
+    font-size: 24px;
+    font-family: inherit;
+    line-height: 1.4em;
+    border: 0;
+    outline: none;
+    padding: 6px;
+    border: 1px solid #999999;
+  }
+
+
 }
+  
